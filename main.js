@@ -213,9 +213,19 @@ function updateMyOrder() {
   myOrderContent.appendChild(totalContainer);
 }
 
-// Función para enviar el pedido a WhatsApp
+// Función para enviar el pedido a WhatsApp y vaciar el carrito
 function sendOrderToWhatsApp() {
-  let orderMessage = "Hola, me gustaría hacer el siguiente pedido:\n\n";
+  const customerName = document.getElementById("customerName").value.trim();
+  const customerAddress = document
+    .getElementById("customerAddress")
+    .value.trim();
+
+  if (!customerName || !customerAddress) {
+    alert("Por favor, ingrese su nombre y dirección.");
+    return;
+  }
+
+  let orderMessage = `Hola, me gustaría hacer el siguiente pedido:\n\nMi nombre es: ${customerName}\n y Mi Dirección es: ${customerAddress}\n\n`;
 
   cartItems.forEach((item) => {
     orderMessage += `- ${item.name} - ${item.price}\n`;
@@ -229,7 +239,7 @@ function sendOrderToWhatsApp() {
 
   orderMessage += `\nTotal: $${total.toFixed(2)}`;
 
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=3133574711&text=${encodeURIComponent(
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=yourphonenumber&text=${encodeURIComponent(
     orderMessage
   )}`;
   window.open(whatsappUrl, "_blank");
@@ -238,6 +248,10 @@ function sendOrderToWhatsApp() {
   cartItems = [];
   updateCart();
   updateMyOrder();
+
+  // Limpiar los campos de entrada
+  document.getElementById("customerName").value = "";
+  document.getElementById("customerAddress").value = "";
 }
 
 document

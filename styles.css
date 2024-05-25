@@ -223,6 +223,20 @@
     text-align: end;
     font-weight: bold;
   }
+
+  #customerInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  #customerInfo input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
   .shopping-cart {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
