@@ -239,7 +239,7 @@ function sendOrderToWhatsApp() {
 
   orderMessage += `\nTotal: $${total.toFixed(2)}`;
 
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=yourphonenumber&text=${encodeURIComponent(
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=3133574711&text=${encodeURIComponent(
     orderMessage
   )}`;
   window.open(whatsappUrl, "_blank");

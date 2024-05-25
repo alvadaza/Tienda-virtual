@@ -485,6 +485,9 @@ footer ul li a::before {
         width: 100%; 
         height: 100%;
   }
+  #customerInfo {
+    grid-template-columns: 1fr;
+}
   .cards-container {
     grid-template-columns: repeat(auto-fill, 140px);
   }
@@ -514,3 +517,4 @@ footer ul li a::before {
         display: none;
     }  
 }
+
