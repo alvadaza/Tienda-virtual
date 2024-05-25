@@ -498,5 +498,5 @@ footer ul li a::before {
 @media (min-width: 641px) {
     .mobile-menu {
         display: none;
-    }
+    }  
 }
