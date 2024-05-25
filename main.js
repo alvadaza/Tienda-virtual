@@ -225,7 +225,7 @@ function sendOrderToWhatsApp() {
     return;
   }
 
-  let orderMessage = `Hola, me gustaría hacer el siguiente pedido:\n\nMi nombre es: ${customerName}\n y Mi Dirección es: ${customerAddress}\n\n`;
+  let orderMessage = `Hola, mi nombre es ${customerName}\n y mi dirección es ${customerAddress}\n\nme gustaría hacer el siguiente pedido:\n\n`;
 
   cartItems.forEach((item) => {
     orderMessage += `- ${item.name} - ${item.price}\n`;
