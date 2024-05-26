@@ -322,117 +322,106 @@ function openProductDetailAside() {
 
 const produclist = [
   {
-    name: "Bicicleta",
-    price: 150,
+    name: "Disco Ssd Adata 512gb M2 2280",
+    price: 170000,
     image:
-      "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    description:
-      "Es un vehículo ecológico que no tiene motor y funciona con pedales.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749839/Photos-001%20%281%29/IMG_20240526_121329_n8l4qh.jpg",
+    description: "Disco Ssd Adata 512 gb Legend 700 Pcie Gen3 X4 M.2 2280.",
   },
   {
-    name: "Pantalla",
-    price: 320,
+    name: "Adata M.2 Ssd",
+    price: 110000,
     image:
-      "https://images.pexels.com/photos/326512/pexels-photo-326512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "monitor portatil. pantalla 4k. monitor 120hz. Computación. Monitores y Accesorios. Monitores. te ahorra envíos Con tu carrito de compras.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749839/Photos-001%20%281%29/IMG_20240526_121242_zuka3u.jpg",
+    description: "Adata Legfend 700 Pcle Gen3 X4 M.2 2280 SSD",
   },
   {
-    name: "Portatil",
-    price: 620,
+    name: "Disco Estado Solido 120gb",
+    price: 95000,
     image:
-      "https://images.pexels.com/photos/6446709/pexels-photo-6446709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Encuentra portátiles de las marcas HP, Lenovo, ASUS, Apple y más. Envío gratis a todo Colombia. ¡Compra y participa para Ganar la mitad de tu compra!.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749838/Photos-001%20%281%29/IMG_20240526_121208_c1o2ea.jpg",
+    description: "Disco Estado Solido 120GB SU650 ADATA.",
   },
   {
-    name: "Muebles",
-    price: 130,
+    name: "Disco Estado Solido 240gb",
+    price: 120000,
     image:
-      "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Aparadores y Muebles Auxiliares; Estudio. Juegos de Estudio; Escritorios; Sillas Auxiliares; Bibliotecas; Dormitorio.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749837/Photos-001%20%281%29/IMG_20240526_120933_gxdrhw.jpg",
+    description: "Disco duro solido interno ADATA 240 GB SAT ASU650SS-240GT-R.",
   },
   {
-    name: "Escritorio pequeño",
-    price: 120,
+    name: "Disco Estado Solido 960gb",
+    price: 360000,
     image:
-      "https://images.pexels.com/photos/5683082/pexels-photo-5683082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Escritorios para niños y niñas. Los más pequeños de casa necesitan hacer tareas.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749837/Photos-001%20%281%29/IMG_20240526_121119_hosqtj.jpg",
+    description: "dISCO SOLIDO ADFATA 960GB SATA ASU 650SS-960GT-R.",
   },
   {
     name: "Computadores",
-    price: 180,
+    price: 800000,
     image:
       "https://images.pexels.com/photos/4499765/pexels-photo-4499765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Compra computadores all in one estudia, trabaja y diviértete con las mejores marcas.",
+      "VENTA DE TODO CLASE DE EQUIPOS NOS ACOMODAMOS A SU PROSUPUESTO PREGUNTE EL SUYO.",
   },
 
   {
     name: "Mause",
-    price: 30,
+    price: 30000,
     image:
       "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
       "minnie mouse. mouse inalambrico. teclado inalambrico. teclado. Computación. Periféricos de PC. Mouses y Teclados. Mouses.",
   },
   {
-    name: "Muenles Medianos",
-    price: 220,
+    name: "Disco Estado Solido 512GB",
+    price: 160000,
     image:
-      "https://images.pexels.com/photos/5998739/pexels-photo-5998739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Muebles contemporáneos y muebles modernos - Lujo asequible y servicio de decoración de interiores.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749837/Photos-001%20%281%29/IMG_20240526_121032_hf1xlp.jpg",
+    description: "DISCO ESTADO SOLIDO SSD SATA 512GB ADATA SU650 2.5.",
   },
   {
     name: "Teclado Gamer",
-    price: 130,
+    price: 130000,
     image:
       "https://images.pexels.com/photos/3829226/pexels-photo-3829226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
       "TECLADO GAMER. Un teclado gamer como todo componente a la hora de armar tu PC gamer es un punto focal si quieres tener la experiencia gamer al 100%.",
   },
   {
-    name: "Sillon Pequeño",
-    price: 80,
+    name: "Teclado Genius",
+    price: 35000,
     image:
-      "https://images.pexels.com/photos/4846437/pexels-photo-4846437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Sillon pequeno Miles de productos del mundo a tu casa Ordenar por Más relevantes Silla.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749840/Photos-001%20%281%29/teclado_ginius_aecuce.jpg",
+    description: "Teclado Genius Alambrico Español.",
   },
   {
-    name: "Camara de Grabación",
-    price: 430,
+    name: "Teclado y Mause",
+    price: 80000,
     image:
-      "https://images.pexels.com/photos/2873486/pexels-photo-2873486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Camaras para grabar videos Ordenar por Más relevantes Soporte De Tiro Fijo.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749839/Photos-001%20%281%29/IMG_20240526_122320_xpjpk9.jpg",
+    description: "Combo Logitech Inalambrico .",
   },
   {
-    name: "Bicicleta Electrica",
-    price: 350,
+    name: "Tecldo y Mause Genius",
+    price: 80000,
     image:
-      "https://images.pexels.com/photos/14474990/pexels-photo-14474990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Encuentra las bicicletas electricas de Colombia que tanto estas buscando. Llévate a casa las marcas número uno en Colombia.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749837/Photos-001%20%281%29/como_teclado_clgodf.jpg",
+    description: "Combo Teclado Mouse Genius Inalambrico Color Negro.",
   },
   {
-    name: "Gafas 3D",
-    price: 130,
+    name: "Memoria Portatil 4gm",
+    price: 70000,
     image:
-      "https://images.pexels.com/photos/6498301/pexels-photo-6498301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Envíos Gratis en el día Compre Gafas 3d Realidad Virtual en cuotas sin interés! Conozca nuestras increíbles ofertas y promociones .",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749837/Photos-001%20%281%29/IMG_20240526_120357_qpvern.jpg",
+    description: "Memoria RAM DDR4 4GB Crucial 2660 portatil.",
   },
   {
-    name: "Controles Play 4",
-    price: 60,
+    name: "Memoria Portatil 8gm",
+    price: 90000,
     image:
-      "https://images.pexels.com/photos/3945657/pexels-photo-3945657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "controles ps4. mando xbox. steam controller. mando ps4. volante ps4. control ps4 original. ps4 controller. te ahorra envíos Con tu carrito de compras.",
+      "https://res.cloudinary.com/dl7kjajkv/image/upload/v1716749840/Photos-001%20%281%29/memotia_crucial_8g_ninzhv.jpg",
+    description: "Memoria RAM DDR4 8GB Crucial 2660 portatil.",
   },
 ];
 
